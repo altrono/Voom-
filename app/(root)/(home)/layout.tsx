@@ -1,10 +1,11 @@
+import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 import React from "react"
 
 const Layout = ({children } : {children: React.ReactNode}) => {
   return (
     <main className="relative">
-        Navbar
+        <Navbar />
         <div className="flex">
             <Sidebar />
 
