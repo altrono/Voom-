@@ -12,7 +12,7 @@ const Navbar = () => {
             <p className="text-[26px] font-extrabold text-white max-sm:hidden">Voom</p>
         </Link>
 
-        <div className="flex-between gap-5 sm:hidden">
+        <div className="flex-between gap-5">
             {/* Clerk - User Management */}
             <SignedIn>
                 <UserButton />
