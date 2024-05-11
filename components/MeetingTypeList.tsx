@@ -3,7 +3,6 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
 import HomeCard from './HomeCard';
 import MeetingModal from './MeetingModal';
 import { useUser } from '@clerk/nextjs';
