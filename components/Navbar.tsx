@@ -11,6 +11,9 @@ const Navbar = () => {
             <Image src="/icons/logo.svg"  width={32} height={32} alt="Voom"/>
             <p className="text-[26px] font-extrabold text-white max-sm:hidden">Voom</p>
         </Link>
+        <Link href="/coffee" className="flex items-center gap-1">
+            <p className="text-[26px] font-extrabold text-white max-sm:hidden">Buy me coffee</p>
+        </Link>
 
         <div className="flex-between gap-5">
             {/* Clerk - User Management */}
